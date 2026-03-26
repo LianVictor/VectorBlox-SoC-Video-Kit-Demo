@@ -1,6 +1,6 @@
 ## Flashing Yocto Linux
 
-> On Windows, the Yocto [image can be programmed](https://github.com/polarfire-soc/polarfire-soc-documentation/blob/master/reference-designs-fpga-and-development-kits/updating-mpfs-kit.md#programming-a-linux-image) via `USBImager`.  
+> On Windows, the Yocto [image can be programmed](https://github.com/polarfire-soc/polarfire-soc-documentation/blob/v2023.02/reference-designs-fpga-and-development-kits/updating-mpfs-kit.md) via `USBImager`.  
 > For detailed documentation please refer to [PolarFire SoC Documentation](https://github.com/polarfire-soc/polarfire-soc-documentation)
 
 <a name="linux-image"></a>

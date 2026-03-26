@@ -28,7 +28,7 @@ This document provides a guide for quickly setting up and generating a VectorBlo
 
 
 ### Step 1: Jumper Configuration
-The PolarFire SoC Video Kit comes with the jumpers set up correctly. If you change the jumpers or encounter issues, refer to the jumper section of the [VectorBlox v3.0 PolarFire SoC Video Kit Demo Guide PDF](VectorBlox_v3.0_PolarFire_SoC_Video_Kit_Demo_Guide.pdf).
+The PolarFire SoC Video Kit comes with the jumpers set up correctly. If you change the jumpers or encounter issues, refer to the jumper section of the [VectorBlox v3.0 PolarFire SoC Video Kit Demo Guide PDF](VectorBlox_PolarFire_SoC_Video_Kit_Demo_Guide.pdf).
 
 
 

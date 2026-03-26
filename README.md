@@ -45,7 +45,7 @@ Sample videos for input to the Face Recognition mode are available [here](https:
 - [Flashing Yocto Linux](docs/flashing_yocto_linux.md) - Refer to this document when flashing a OS to the board  
 - [Board Setup Without quickstart.sh](docs/manual_setup.md) - It's recommended to set board up with the quickstart script, but for manual setup please refer to this document  
 - [Adding Additional Models](docs/adding_models.md) - Describes how to add additional models to the demo that can be generated through our SDK
-- [VectorBlox SoC Video Kit Demo Guide PDF](docs/VectorBlox_SoC_Video_Kit_Demo_Guide.pdf) - Refer to this pdf for extra information  
+- [VectorBlox SoC Video Kit Demo Guide PDF](docs/VectorBlox_PolarFire_SoC_Video_Kit_Demo_Guide.pdf) - Refer to this pdf for extra information  
 
 
 ## Legal
