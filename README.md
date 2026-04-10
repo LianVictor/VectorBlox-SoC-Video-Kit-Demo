@@ -17,7 +17,7 @@ This repository supports Libero SoC v2025.1, which is available for download [he
 
 ## QuickStart Setup Guide
 
-To start running the demo on the PolarFire SoC Video Kit (without building) using the job file we provide, please use this [Quickstart Setup Guide](docs/Quickstart.md)
+To start running the demo along with [precompiled models](https://github.com/Microchip-Vectorblox/VectorBlox-SDK/blob/master/example/soc-video-c/demo_models.h) on the PolarFire SoC Video Kit (without building) using the job file we provide, please use this [Quickstart Setup Guide](docs/Quickstart.md).
 
 ## Building with Libero Setup Guide
 

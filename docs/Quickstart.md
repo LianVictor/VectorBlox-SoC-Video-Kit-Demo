@@ -84,7 +84,7 @@ Currently, the VectorBlox SoC Video Kit Demo is designed to operate on the 2023.
 - HDMI cables connected to the PolarFire SoC Video Kit (Rx/Tx)
     > If any issues appear such as noise/white screen appear on the output, please check cables and power-cycle the board
 - Plug the camera daughter card into the PolarFire SOC video kit board if it's not already connected.
-- Download and run the [quick_start_3_0.sh] script(https://raw.githubusercontent.com/Microchip-Vectorblox/assets/refs/heads/main/quick_start_3_0.sh) to the root directory:
+- Download and run the [quick_start_3_0.sh](https://raw.githubusercontent.com/Microchip-Vectorblox/assets/refs/heads/main/quick_start_3_0.sh) script to the root directory:
     ```
     wget --no-check-certificate https://raw.githubusercontent.com/Microchip-Vectorblox/assets/refs/heads/main/quick_start_3_0.sh 
     ```
