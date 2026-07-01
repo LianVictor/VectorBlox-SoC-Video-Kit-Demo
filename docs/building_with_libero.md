@@ -1,4 +1,4 @@
-# Building with Libero SoC v2025.1 Setup Guide
+# Building with Libero SoC Setup Guide
 
 ## Licensing
 
@@ -11,7 +11,7 @@ If building the Video Kit VectorBlox Design in Libero, two free licenses are req
 To generate the VectorBlox demo design, the following flow can be used:
 
 1. Clone or download the repository
-2. Open Libero SoC v2025.1
+2. Open Libero SoC
 3. Open the execute script dialog (CTRL + U) from the Welcome Page
 4. Execute the "MPFS_VIDEO_KIT_REFERENCE_DESIGN.tcl" script
 5. Configure the design if required

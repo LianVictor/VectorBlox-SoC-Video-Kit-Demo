@@ -18,7 +18,7 @@ This document provides a guide for quickly setting up and running a VectorBlox d
 
 - [FlashPro Express](https://www.microchip.com/en-us/products/fpgas-and-plds/fpga-and-soc-design-tools/programming-and-debug#Download%20Software) is required to program an FPGA bitstream to a target development kit. FlashPro Express can be installed as a standalone tool with the Program and Debug tools and is also installed with Libero SoC.
 - [USBImager](https://bztsrc.gitlab.io/usbimager/) is required to program a Linux image to a target memory using the Hart Software Services.
-- [Setup Serial Terminal](https://onlinedocs.microchip.com/oxy/GUID-E89F0380-CE10-4E39-B622-CA56F677F477-en-US-3/GUID-252CFF5A-1DB8-421F-B210-A5C575B68FE7.html)
+- [Setup Serial Terminal](https://onlinedocs.microchip.com/oxy/GUID-E89F0380-CE10-4E39-B622-CA56F677F477-en-US-3/GUID-252CFF5A-1DB8-421F-B210-A5C575B68FE7.html) is required for UART communication with the board
 - Ethernet connectivity to the internet via connection to IP Gateway
 
 ## Board Setup
@@ -80,13 +80,13 @@ The highlighted areas in the image indicate the required hardware connections.
 
 Programming the [job](https://github.com/Microchip-Vectorblox/VectorBlox-SoC-Video-Kit-Demo/releases) file will program the FPGA fabric with the latest reference configuration and program the eNVM with the latest HSS payload. The .zip file in the release assets should be downloaded and extracted to access the programming job file.
 
-- **Click [this link](https://github.com/Microchip-Vectorblox/VectorBlox-SoC-Video-Kit-Demo/releases/download/release-v3.0/Vectorblox-Video-Kit-Demo.job.v3.0.zip) to download the no compression V1000 job file for VectorBlox 3.0**
+- **Click [this link](https://github.com/Microchip-Vectorblox/VectorBlox-SoC-Video-Kit-Demo/releases/download/release-v3.1/Vectorblox-SoC-Video-Kit-Demo.job.v3.1.zip) to download the no compression V1000 job file for VectorBlox 3.1**
 - Ensure that J5 and J12 USB cables are connected to the board.
 - Follow the steps to set up the serial terminal so the computer can communicate with the FPGA's UART.
 - Load the `.job` file in FlashPro Express as a New Project under the Project tab in the menu and then select `Run`.
 - Power-cycle the board once the process is complete.
 
-**Note:** For VectorBlox 3.0, there are four different job files: no compression (NCOMP), compression (COMP), HDMI input unstructured compression (UCOMP_HDMI), and MIPI input unstructured compression (UCOMP_MIPI). For the demo, please use the no compression job file in the link above when getting started.
+**Note:** For VectorBlox 3.0 or higher, there are four different job files: no compression (NCOMP), compression (COMP), HDMI input unstructured compression (UCOMP_HDMI), and MIPI input unstructured compression (UCOMP_MIPI). For the demo, please use the no compression job file in the link above when getting started.
 
 ### Step 4: Programming the Linux Image
 
@@ -116,30 +116,30 @@ The VectorBlox SoC Video Kit Demo is designed to operate on the 2023.02.1 Yocto 
    - Ensure HDMI cables are connected to the PolarFire SoC Video Kit (Rx/Tx ports)
    - Connect the camera daughter card to the PolarFire SoC Video Kit board
 
-2. Download the [quick_start_3_0.sh](https://raw.githubusercontent.com/Microchip-Vectorblox/assets/refs/heads/main/quick_start_3_0.sh) script to the root directory and run it:
+2. Download the [quick_start_3.sh](https://raw.githubusercontent.com/Microchip-Vectorblox/assets/refs/heads/main/quick_start_3.sh) script to the root directory and run it:
 
     ```bash
-    wget --no-check-certificate https://raw.githubusercontent.com/Microchip-Vectorblox/assets/refs/heads/main/quick_start_3_0.sh 
+    wget --no-check-certificate https://raw.githubusercontent.com/Microchip-Vectorblox/assets/refs/heads/main/quick_start_3.sh 
     ```
 
-3. The `quick_start_3_0.sh` script accepts a version parameter (defaults to `3.0`). This feature requires VectorBlox 3.0 or higher; for older versions, refer to the corresponding release tag.
+3. The `quick_start_3.sh` script accepts a version parameter (defaults to `3.1`). This feature requires VectorBlox 3.1 or higher; for older versions, refer to the corresponding release tag.
 
     For a default NCOMP (no compression) .job file:
 
     ```bash
-    bash quick_start_3_0.sh
+    bash quick_start_3.sh
     ```
 
    For a COMP (compression) .job file:
 
     ```bash
-    bash quick_start_3_0.sh 3.0 COMP
+    bash quick_start_3.sh 3.1 COMP
     ```
 
    For a UCOMP (unstructured compression) .job file:
 
     ```bash
-    bash quick_start_3_0.sh 3.0 UCOMP
+    bash quick_start_3.sh 3.1 UCOMP
     ```
 
 #### Important Notes
@@ -152,7 +152,7 @@ The VectorBlox SoC Video Kit Demo is designed to operate on the 2023.02.1 Yocto 
 
 ## Controlling the VectorBlox Demo
 
-A list of models that the demo runs can be found in the [demo_models.h](https://github.com/Microchip-Vectorblox/VectorBlox-SDK/blob/release-v3.0/example/soc-video-c/demo_models.h) file. The demo models header file is located in the `examples/soc-video-c` directory of the VectorBlox SDK and is transferred to the board when running the quickstart shell script.
+A list of models that the demo runs can be found in the [demo_models.h](https://github.com/Microchip-Vectorblox/VectorBlox-SDK/blob/release-v3.1/example/soc-video-c/demo_models.h) file. The demo models header file is located in the `examples/soc-video-c` directory of the VectorBlox SDK and is transferred to the board when running the quickstart shell script.
 
 Refer to [adding_models.md](./adding_models.md) for instructions on adding models generated from the SDK.
 
@@ -170,4 +170,4 @@ Sample videos for input to the Face Recognition mode are available [here](https:
 
 ## Next Steps
 
-Once the demo is up and running, feel free to look at the [Adding Models markdown file](./adding_models.md) for instructions on adding binary model files generated by the [VectorBlox SDK](https://github.com/Microchip-Vectorblox/VectorBlox-SDK/tree/release-v3.0).
+Once the demo is up and running, feel free to look at the [Adding Models markdown file](./adding_models.md) for instructions on adding binary model files generated by the [VectorBlox SDK](https://github.com/Microchip-Vectorblox/VectorBlox-SDK/tree/release-v3.1).

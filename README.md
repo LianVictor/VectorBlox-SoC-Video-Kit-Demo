@@ -29,7 +29,7 @@ For instructions on building the project with a Tcl script in Libero SoC v2025.1
 
 ## Controlling the VectorBlox Demo
 
-A list of models that the demo runs can be found in the [demo_models.h](https://github.com/Microchip-Vectorblox/VectorBlox-SDK/blob/release-v3.0/example/soc-video-c/demo_models.h) file. The demo models header file is located in the `examples/soc-video-c` directory of the VectorBlox SDK and is transferred to the board when running the quickstart shell script.
+A list of models that the demo runs can be found in the [demo_models.h](https://github.com/Microchip-Vectorblox/VectorBlox-SDK/blob/release-v3.1/example/soc-video-c/demo_models.h) file. The demo models header file is located in the `examples/soc-video-c` directory of the VectorBlox SDK and is transferred to the board when running the quickstart shell script.
 
 Refer to [adding_models.md](docs/adding_models.md) for instructions on adding models generated from the SDK.
 
