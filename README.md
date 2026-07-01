@@ -48,7 +48,7 @@ Sample videos for input to the Face Recognition mode are available [here](https:
 ## Additional Information
 
 - [Flashing Yocto Linux](docs/flashing_yocto_linux.md) -  Refer to this document when flashing an OS to the board.
-- [Board Setup Without quickstart.sh](docs/manual_setup.md) - It’s recommended to use the quickstart script to set up the board; for manual setup, please refer to this document.
+- [Board Setup Without quickstart shell script](docs/manual_setup.md) - It’s recommended to use the quickstart script to set up the board; for manual setup, please refer to this document.
 - [Adding Additional Models](docs/adding_models.md) - Describes how to add additional models to the demo that can be generated through our SDK.
 - [Resource Utilization](https://github.com/Microchip-Vectorblox/VectorBlox-SDK/blob/master/docs/resource_utilization.md) - Refer to this for FPGA resource utilization numbers for the VBX v3.1 core.
 - [CoreVectorBlox IP Handbook ](https://github.com/Microchip-Vectorblox/VectorBlox-SDK/blob/master/docs/CoreVectorBlox_IP_Handbook.pdf) - Please refer to the CoreVectorBlox IP Handbook PDF within the docs folder of our SDK for more information about the VectorBlox core.
