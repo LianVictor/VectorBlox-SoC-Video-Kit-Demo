@@ -50,13 +50,13 @@ Sample videos for input to the Face Recognition mode are available [here](https:
 - [Flashing Yocto Linux](docs/flashing_yocto_linux.md) -  Refer to this document when flashing an OS to the board.
 - [Board Setup Without quickstart.sh](docs/manual_setup.md) - It’s recommended to use the quickstart script to set up the board; for manual setup, please refer to this document.
 - [Adding Additional Models](docs/adding_models.md) - Describes how to add additional models to the demo that can be generated through our SDK.
-- [Resource Utilization](docs/resource_utilization.md) - Refer to this for FPGA resource utilization numbers for the VBX v3.1 core.
+- [Resource Utilization](https://github.com/Microchip-Vectorblox/VectorBlox-SDK/blob/master/docs/resource_utilization.md) - Refer to this for FPGA resource utilization numbers for the VBX v3.1 core.
 - [CoreVectorBlox IP Handbook ](docs/VectorBlox_PolarFire_SoC_Video_Kit_Demo_Guide.pdf) - Please refer to the CoreVectorBlox IP Handbook PDF within the docs folder of our SDK for more information about the VectorBlox core.
-- [VectorBlox SoC Video Kit Demo Guide PDF](https://github.com/Microchip-Vectorblox/VectorBlox-SDK/tree/master/docs) - Refer to this PDF for more information.
+- [VectorBlox SoC Video Kit Demo Guide PDF](docs/VectorBlox_PolarFire_SoC_Video_Kit_Demo_Guide.pdf) - Refer to this PDF for more information.
 
 ## Version Compatibility
 
-Refer to the following table for version compatibility information for the VBX SoC Video Kit Demo:
+Refer to the following table for previous version compatibility information for the VBX SoC Video Kit Demo:
 
 | VBX SoC Video Demo Release Tags                                                                                                     | VBX SDK Release Tags                                                                                 | .job File                                                                                                                                                               | Libero Version     | FlashPro Version  |
 | :---------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------- | :---------------- |
