@@ -1,6 +1,6 @@
 # Adding Additional Models
 
-By default, the demo starts with a predefined set of models. These models can be changed in the `demo_models.h` header file found in the [`examples/soc-video-c`](https://github.com/Microchip-Vectorblox/VectorBlox-SDK/tree/master/example/soc-video-c) directory. This document shows how to add a new model from the VectorBlox-SDK's existing set of tutorials.
+By default, the demo starts with a predefined set of models. These models can be changed in the `demo_models.h` header file found in the [examples/soc-video-c](https://github.com/Microchip-Vectorblox/VectorBlox-SDK/tree/master/example/soc-video-c) directory of the VectorBlox SDK. This document shows how to add a new model from the VectorBlox-SDK's existing set of tutorials.
 
 Currently, custom post-processing routines exist for object detection, classification, face recognition, and pose estimation to display on the video demo or print outputs in the command line. Users will have to write additional post-processing code to run other models or modify existing post-processing code to suit their needs. Please contact the VectorBlox team for more information.
 
@@ -8,7 +8,7 @@ The following sections describe how to run the alternate models.
 
 ## Obtaining Model File
 
-To obtain the new model file for one of the existing tutorials, one needs to run the tutorial available in the VectorBlox SDK at [github.com/Microchip-Vectorblox/VectorBlox-SDK](https://github.com/Microchip-Vectorblox/VectorBlox-SDK). Instructions can be found for running the tutorials in the Programmer's Guide, which is available as part of the SDK documentation. For this document, assume the new model is `yolov8n-cls`. In order to get the model file for `yolov8n-cls`, generate the model using this tutorial: [`VectorBlox-SDK/tree/master/tutorials/ultralytics/yolov8n-cls`](https://github.com/Microchip-Vectorblox/VectorBlox-SDK/tree/master/tutorials/ultralytics/yolov8n-cls). Running the tutorial will generate the appropriate binary version of the model file with the file extension `.vnnx`.
+To obtain the new model file for one of the existing tutorials, one needs to run the tutorial available in the VectorBlox SDK at [github.com/Microchip-Vectorblox/VectorBlox-SDK](https://github.com/Microchip-Vectorblox/VectorBlox-SDK). Instructions can be found for running the tutorials in the Programmer's Guide, which is available as part of the SDK documentation. For this document, assume the new model is `yolov8n-cls`. In order to get the model file for `yolov8n-cls`, generate the model using this tutorial: [VectorBlox-SDK/tree/master/tutorials/ultralytics/yolov8n-cls](https://github.com/Microchip-Vectorblox/VectorBlox-SDK/tree/master/tutorials/ultralytics/yolov8n-cls). Running the tutorial will generate the appropriate binary version of the model file with the file extension `.vnnx`.
 
 The generated model binary needs to be transferred to the SoC Video Kit, e.g., via the `scp` command.
 
